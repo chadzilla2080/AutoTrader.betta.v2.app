@@ -1,0 +1,139 @@
+/** Override Bootstrap - Custom Styles */
+
+.container{
+
+    width: 1037px;
+    margin: 0 auto;
+
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1.2;
+    color: #333;
+    font-size: 12px;
+    background-image: url(/public/images/bg.png); /** Link to the image you created **/
+    background-repeat: repeat-y; /** Repeats the image vertically **/
+    background-position: center; /** Centers the Background image **/
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FF5C26;
+    text-decoration: none;
+}
+
+a:active{
+
+    color: #FF5C26;
+    text-decoration: none;
+}
+
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+#header{
+
+    background: #ececec;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    height: 125px;
+}
+
+.search-header{
+
+    float: left;
+    margin-top: 45px;
+    margin-left: 65px;
+
+}.cust-apps{
+
+    float: right;
+    margin-top: 49px;
+    margin-right: 50px;
+ }
+
+ #cust-text a{
+
+    color: #3A1FA1 !important;
+ }
+
+ .ads{
+
+     float: left;
+     margin-top: 45px;
+     margin-left: 75px;
+ }
+
+ .dealer-list{
+
+     float:left;
+     margin-top: 500px;
+     margin-left: 75px;
+ }
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF5C26;
+    border-color: #FF5C26;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3A1FA1;
+    border-color: #3A1FA1;
+}
+
+#main-nav {
+
+    background: #3A1FA1;
+    height: 34px;
+    min-width: 500px;
+    color: #ffffff;
+
+}
+
+.main-nav ul{
+
+    height: auto;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+.main-nav li{
+
+    display: block;
+    float: left;
+    width: 210px;
+    height: 25px;
+    margin-left: -50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-nav a{
+
+    text-decorations: none;
+    color: #ffffff;
+    display: table-cell;
+    height: 15px;
+    vertical-align: middle;
+    padding: 8px 8px 8px 8px;
+}
+
+#footer .container{
+
+    text-align: right;
+    border-top: 1px solid #f5f5f5;
+    padding-top: 20px;
+    color: #b3b3b3;
+
+}
